@@ -1,0 +1,21 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts":{
+    "test": "echo \"Error: no test especified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
+    "lit": "^2.8.0"
+    
+  },
+
+  "devDependencies":{
+    "@web/dev-server": "^0.3.1"
+  }
+}

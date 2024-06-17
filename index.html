@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="module" src="./js/componenteHeader.js"></script>
+    <script type="module" src="./js/menu-lateral.js"></script>
+    <script type="module" src="./js/button-menu.js"></script>
+    <script type="module" src="./js/receta-nueva.js"></script>
+    <script type="module" src="./js/agregar-receta.js"></script>
+    <script type="module" src="./formulario-recetas.js"></script>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet">
+
+    <title>Proyecto recetas</title>
+</head>
+<body style=" font-family: Shojumaru" class="grey-lighten-4">
+    <header>
+        <componente-header>
+            <button-menu id="boton"></button-menu>
+        </componente-header>
+    </header>
+    <main>
+        
+        
+
+
+
+            <receta-nueva>
+                
+                <agregar-receta slot="agregar">
+                    <formulario-recetas></formulario-recetas>
+                </agregar-receta>
+            </receta-nueva>
+
+
+    </main>
+
+
+    
+    <script src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
